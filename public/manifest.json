@@ -1,0 +1,82 @@
+{
+    "short_name": "TARDI Staking",
+    "name": "TARDI Staking Platform",
+    "description": "Stake TARDI tokens and earn rewards on the Sui blockchain",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "images/logo.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "images/logo-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#4338ca",
+    "background_color": "#ffffff",
+    "orientation": "portrait",
+    "categories": ["finance", "cryptocurrency"],
+    "screenshots": [
+      {
+        "src": "images/screenshots/dashboard.png",
+        "type": "image/png",
+        "sizes": "1280x720"
+      },
+      {
+        "src": "images/screenshots/staking.png",
+        "type": "image/png",
+        "sizes": "1280x720"
+      },
+      {
+        "src": "images/screenshots/rewards.png",
+        "type": "image/png",
+        "sizes": "1280x720"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "web",
+        "url": "https://tardi.org"
+      }
+    ],
+    "prefer_related_applications": false,
+    "shortcuts": [
+      {
+        "name": "Stake TARDI",
+        "short_name": "Stake",
+        "description": "Stake your TARDI tokens",
+        "url": "/stake",
+        "icons": [
+          {
+            "src": "images/shortcuts/stake.png",
+            "sizes": "96x96"
+          }
+        ]
+      },
+      {
+        "name": "View Rewards",
+        "short_name": "Rewards",
+        "description": "Check your staking rewards",
+        "url": "/rewards",
+        "icons": [
+          {
+            "src": "images/shortcuts/rewards.png",
+            "sizes": "96x96"
+          }
+        ]
+      }
+    ],
+    "lang": "en-US",
+    "dir": "ltr"
+  }

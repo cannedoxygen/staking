@@ -1,0 +1,32 @@
+[package]
+name = "tardi_staking"
+version = "1.0.0"
+published-at = "0x4cf08813756dfa7519cb480a1a1a3472b5b4ec067592a8bee0f826808d218158"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "main" }
+
+[addresses]
+tardi = "0x4cf08813756dfa7519cb480a1a1a3472b5b4ec067592a8bee0f826808d218158"
+sui = "0x2"
+
+[dev-dependencies]
+# Add any development dependencies here
+
+# Custom configurations for the Sui Move package
+[custom]
+# Enable ABIGen for generating TypeScript client libraries
+abigen = true
+# Configure the framework version
+framework-version = "1.0.0"
+# Set the transaction block gas budget for deployment
+deploy-gas-budget = 50000000
+
+# Build configurations
+[build]
+# Generate documentation for the package
+generate-docs = true
+# Generate coverage information
+generate-coverage = true
+# Enable tests
+test = true
